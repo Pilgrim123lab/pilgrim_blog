@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Blog</title>
+    <link rel="stylesheet" href="blog.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Blog</h1>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -16,39 +16,46 @@
                 <li><a href="#subscribe">Subscribe</a></li>
             </ul>
         </nav>
+        <h1><i>Welcome to My Blog</i></h1>
     </header>
 <main>
+     <div>
+        <img src="images/my_picture.jpeg" alt="Author's picture" width="300">
+        <p>Pilgrim</p>
+    </div>
     <section id="home">
-        <h1><span>Hi, I am Pilgrim.<br></span> I am a software developer and also have a passion for data analytics and machine learning.</h1>
-            <p>This is where I share my thoughts and experiences.</p>
-        <p>Welcome to my blog! Here, I will be sharing my journey as a software developer, my experiences in the tech industry, and insights into data analytics and machine learning. Stay tuned for updates!<br>You can find my latest posts <a href="#blog">here</a>.</p>
-    </section>
-
-    <section id="about">
-        <h2>About Me</h2>
-            <p>I am a software developer with a passion for data analytics and machine learning. I have experience in various programming languages and frameworks, and I enjoy exploring new technologies and solving complex problems.</p>
-                <p> I am currently a student of Obafemi Awolowo University, in the departmemt of Computer Science  with Mathematics, 300 level.</p>
+            <div class="welcome">
+                <h2>Welcome to My Blog</h2>
+                <p>Hi, I'm Pilgrim, a software developer passionate about data analytics, machine learning, and web development. This blog is where I share my insights, tutorials, and experiences in the world of technology.</p>
+                 <p> I am currently a student of Obafemi Awolowo University, in the departmemt of Computer Science  with Mathematics, 300 level.</p>
                     <p>I enjoy working on challenging projects and staying up-to-date with the latest trends in technology. And I also like to participate in Hackathon spanning various domains, including data science and artificial intelligence.</p>
                 <p> Some of the languages I work with conveniently include Python, JavaScript, SQL.</p>
- </section>
+            </div>
+            <div class="Intro-Image">
+                <img src="images\my_picture.jpeg" alt="Author's picture">
+            </div>
+        </section>
+    <hr>
+    <div>
+            <p>Here are some of my recent blog posts:</p>
+    </div>
+
  <section id="blog">
-        <h2>Blogs</h2>
-        <p>Here are some of my recent blog posts:</p>
-        <article id="post1">
+        <article class="post">
             <h3>Post 1: Introduction to Machine Learning</h3>
             <img src="images\machine-learning.jpg" alt="An illustrative picture of machine learning" width="300">
             <p>Machine learning is a subset of artificial intelligence that focuses on building systems that can learn from data and improve their performance over time. In this post, I will provide an overview of machine learning concepts, algorithms, and applications.
                 <a href="machine-learning.html" target="_self">Read more...</a>
             </p>
         </article>
-        <article id="post2">
+        <article class="post">
             <h3>Post 2: Data Analytics in Python</h3>
             <img src="images\data_analytics-image.jpg" alt="An illustrative picture of data analytics" width="300">
-            <p>Data analytics is the process of collecting, analyzing, and interpreting data to make informed decisions. In this post, I will discuss how to use Python for data analysis and visualization.
-                <a href="data-analytics.html" target="_self">Read more...</a>
+            <br>Data analytics is the process of collecting, analyzing, and interpreting data to make informed decisions. In this post, I will discuss how to use Python for data analysis and visualization.
+                <a href="data-analytics.html" target="_self"><br style="margin-top: 0%;">Read more..</a></br></a>
             </p>
         </article>
-        <article id="post3">
+        <article class="post">
             <h3>Post 3: Building Web Applications with JavaScript</h3>
             <img src="images\web_dev.jpg" alt="An illustrative picture of web development" width="300">
             <p>JavaScript is a powerful programming language that can be used to build dynamic web applications. In this post, I will cover the basics of JavaScript and how to use it for web development.
@@ -56,31 +63,22 @@
             </p>
         </article>
     </section>
-     <section id="contact">
-        <h2>Contact</h2>
-        <p>Feel free to reach out to me if you have any questions or would like to collaborate!</p>
-        <p> you can email me at <a href="mailto:olanrepaul321@gmail.com">olanrepaul321@gmail.com</a></p>
-        <p> you can also reach me on <a href="https://www.linkedin.com/in/olanrewaju11" target="_blank">LinkedIn</a></p>
-        <p>you can access my github account, for further inspection into my projects: <a href="https://github.com/Pilgrim123lab" target="_blank">GitHub</a></p>
-    </section>
+
+    <hr>
+
       <section id="subscribe">
         <h2>Subscribe to My Blog</h2>
         <p>Stay updated with my latest posts and insights by subscribing to my blog. Enter your email below to receive notifications of new content.</p>
         <form action="#" method="post">
             <input type="email" name="email" placeholder="Enter your email" required>
-            <button type="submit">Subscribe</button>
+            <br>
+            <button type="submit">SUBSCRIBE</button>
         </form>
     </section>
     </main>
     <footer>
         <p>&copy; 2024 My Blog. All rights reserved.</p>
     </footer>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Feel free to reach out to me if you have any questions or would like to collaborate!</p>
-    </section>
-    
-
 
 </body>
 </html>
